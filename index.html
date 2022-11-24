@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="hero__navbar">
+      <img src="images/logo.svg" alt="logo" class="navbar__logo">
+      <ul class="navbar__items active">
+        <li class="items__li"><a class="items__a"href="#about">About</a></li>
+        <li class="items__li"><a class="items__a"href="#">Services</a></li>
+        <li class="items__li"><a class="items__a"href="#">Projects</a></li>
+        <li class="items__li "><a class="items__a navbar-contact"href="#">Contact</a></li>
+      </ul>
+      <img class="navbar__hamburger" src="images/icon-hamburger.svg" alt="menu hamburger">
+    </nav>
+    <div class="hero__content">
+      <h1 class="content__title">WE ARE CREATIVES</h1>
+      <img class="content__arrow" src="images/icon-arrow-down.svg" alt="arrow-down">
+    </div>
+  </header>
+  <main class="main">
+    <section class="gallery">
+
+      <div class="container__gallery-1">
+        
+        <div class="gallery__content">
+          <div class="gallery__texts">
+            <h2 id="about" class="gallery__title">Transform your brand</h2>
+            <p class="gallery__paragraph">We are a full-service creative agency specializing in helping brands grow fast. 
+              Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <a class="gallery__cta gallery_cta--yellow" href="#">Learn more</a>
+          </div>
+        </div>
+
+        <figure class="gallery__images">
+          <img class="gallery__image" src="images/desktop/image-transform.jpg" alt="egg">
+        </figure>
+      </div>
+
+      <div class="container__gallery-2">
+        <figure class="gallery__images">
+          <img class="gallery__image" src="images/desktop/image-stand-out.jpg" alt="stand out">
+        </figure>
+
+        <div class="gallery__content">
+
+          <div class="gallery__texts reverse">
+            <h2 class="gallery__title">Stand out to the right audience</h2>
+            <p class="gallery__paragraph">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <a class="gallery__cta gallery_cta--red" href="#">Learn more</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="gallery__small">
+        <div class="gallery__container">
+            <img class="small__images" src="images/desktop/image-graphic-design.jpg" alt="graphic design">
+
+          <div class="gallery__texts--small">
+            <h2 class="gallery__title--small">Graphic design</h2>
+            <p class="gallery__paragraph--small">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+        </div>
+
+           <div class="gallery__container">
+              <img class="small__images" src="images/desktop/image-photography.jpg" alt="photography">
+
+            <div class="gallery__texts--small">
+              <h2 class="gallery__title--small">Photography</h2>
+              <p class="gallery__paragraph--small">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h3 class="testimonials__title">CLIENT TESTIMONIALS</h3>
+
+      <div class="testimonials__card">
+        <div class="card">
+          <img class="card__img" src="images/image-emily.jpg" alt="emily">
+          <div class="card__body">
+            <p class="card__paragraph">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <h4 class="card__name">Emily R.</h4>
+            <p class="card__position">Marketing Director
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__img" src="images/image-thomas.jpg" alt="thomas">
+          <div class="card__body">
+            <p class="card__paragraph">
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <h4 class="card__name">Thomas S.</h4>
+            <p class="card__position">Chief Operating Officer</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__img" src="images/image-jennie.jpg" alt="emily">
+          <div class="card__body">
+            <p class="card__paragraph">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <h4 class="card__name">Jennie F.</h4>
+            <p class="card__position">Business Owner</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+  </main>
+
+  <footer class="footer">
+    <a href="#">
+      <img class="footer__logo" src="images/logo-footer.svg" alt="logo">
+    </a>
+    <ul class="footer__info">
+      <li class="info__items"> <a href="#" class="footer__a">About</a></li>
+      <li class="info__items"> <a href="#" class="footer__a">Services</a></li>
+      <li class="info__items"> <a href="#" class="footer__a">Projects</a></li>
+    </ul>
+    <div class="footer__social">
+      <a href="https://github.com/carpioapaza" class="footer__link"><img src="images/icon-facebook.svg" alt="icon facebook"> </a>
+      <a href="https://github.com/carpioapaza" class="footer__link"><img src="images/icon-instagram.svg" alt="icon instagram"> </a>
+      <a href="https://github.com/carpioapaza" class="footer__link"><img src="images/icon-twitter.svg" alt="icon-twitter"> </a>
+      <a href="https://github.com/carpioapaza" class="footer__link"><img src="images/icon-pinterest.svg" alt="icon-pinterest"> </a>
+
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/carpioapaza">Rodrigo Carpio</a>.
+    </div> 
+
+  </footer>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
